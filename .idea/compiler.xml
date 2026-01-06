@@ -9,26 +9,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cabinet-esb" />
       </profile>
-      <profile name="Annotation profile for consultation-service-api" enabled="true">
+      <profile name="Annotation profile for patient-service-api" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="consultation-service-api" />
+        <module name="patient-service-api" />
       </profile>
-      <profile name="Annotation profile for rendezvous-service-api" enabled="true">
+      <profile name="Annotation profile for cabinetMedicalTp2" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="rendezvous-service-api" />
+        <module name="consultation-service-api" />
         <module name="medecin-service-api" />
-        <module name="patient-service-api" />
         <module name="cabinet-repo" />
       </profile>
     </annotationProcessing>
