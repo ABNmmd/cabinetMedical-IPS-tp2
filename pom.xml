@@ -35,7 +35,10 @@
 
     <modules>
         <module>cabinet-esb</module>
-        <!-- <module>patient-service-api</module> -->
-        <!-- ... -->
+        <module>patient-service-api</module>
+        <module>patient-service-api</module>
+        <module>medecin-service-api</module>
+        <module>rendezvous-service-api</module>
+        <module>consultation-service-api</module>
     </modules>
 </project>
